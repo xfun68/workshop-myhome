@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Pulling the latest version..."
+git pull
+
+./install.sh
