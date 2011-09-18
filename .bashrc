@@ -100,6 +100,7 @@ fi
 
 hello()
 {
-  echo hello "$@"
+  greeting="$*"
+  echo hello "${greeting:-$USER}"
 }
 
