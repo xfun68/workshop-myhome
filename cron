@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $HOME/myhome
+
 echo "Pulling the latest version..."
 git pull
 
