@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ln -sb "$PWD/.bashrc" ~
+ln -sbv "$PWD/.bashrc" ~
