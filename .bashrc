@@ -100,6 +100,7 @@ fi
 
 hello()
 {
+  date
   greeting="$*"
   echo hello "${greeting:-$USER}"
 }
